@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="QLecteur" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="QLecteur" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:\Program Files\CodeBlocks\lib\SDL\SDL-1.2.15\include\SDL" />
+			<Add directory="C:\Program Files\CodeBlocks\lib\SDL_image-1.2.12\include" />
+			<Add directory="C:\Program Files\CodeBlocks\lib\SDL_ttf-2.0.11\include" />
+			<Add directory="C:\Program Files\CodeBlocks\lib\smpeg\include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL" />
+			<Add library="libfmod" />
+			<Add library="SDL_ttf" />
+			<Add library="SDL_image" />
+			<Add library="Psapi" />
+			<Add library="smpeg" />
+			<Add directory=".\libs" />
+			<Add directory="C:\Program Files\CodeBlocks\lib\SDL\SDL-1.2.15\lib" />
+			<Add directory="C:\Program Files\CodeBlocks\lib\SDL_image-1.2.12\lib\x86" />
+			<Add directory="C:\Program Files\CodeBlocks\lib\SDL_ttf-2.0.11\lib\x86" />
+			<Add directory="C:\Program Files\CodeBlocks\lib\smpeg\lib" />
+		</Linker>
+		<Unit filename="affichage_paroles.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="affichage_paroles.h" />
+		<Unit filename="calculs_temps.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="calculs_temps.h" />
+		<Unit filename="config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="config.h" />
+		<Unit filename="conversions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="conversions.h" />
+		<Unit filename="defines.h" />
+		<Unit filename="edition_playlist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="edition_playlist.h" />
+		<Unit filename="fonctions_fichier.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctions_fichier.h" />
+		<Unit filename="fonctions_maths.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctions_maths.h" />
+		<Unit filename="fonctions_process.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctions_process.h" />
+		<Unit filename="fonctions_registre.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctions_registre.h" />
+		<Unit filename="fonctions_repertoire.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctions_repertoire.h" />
+		<Unit filename="fonctions_souris.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctions_souris.h" />
+		<Unit filename="fonctions_texte.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctions_texte.h" />
+		<Unit filename="fonctions_wav.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctions_wav.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.h" />
+		<Unit filename="resize_image.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="resize_image.h" />
+		<Unit filename="ressources.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="shlobj.h" />
+		<Unit filename="winbase.h" />
+		<Unit filename="windows.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
