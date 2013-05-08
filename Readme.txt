@@ -7,3 +7,4 @@ License: GNU GPL v2.0 (see the LICENSE.txt file or http://www.gnu.org/licenses/o
 Operating systems: Windows XP and later
 
 You can contact me for any suggestion, remark, etc. at the address above.
+See http://ikturm.wordpress.com/projects-2/old-projects/qlecteur/ for more information.
