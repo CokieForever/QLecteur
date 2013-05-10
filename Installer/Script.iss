@@ -39,6 +39,7 @@ WizardImageFile=icone_wizard.bmp
 WizardSmallImageFile=icone_small_wizard.bmp
 WizardImageBackColor=$000000
 ChangesAssociations=yes
+LicenseFile=LICENSE.txt
 
 
 [Languages]
